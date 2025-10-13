@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body><br><br>
+    <header>
+        <nav class="links">
+            <ul>
+                <li><a href="home.html">Início</a></li>
+                <li><a href="#denuncie">Denuncie</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul> <br>
+    </nav>
+    </header><br><br><br><br>
+
+    <div class="container-denuncie">
+    <section class="denuncie">
+        <h2>Formulario de Denúncia</h2>
+
+        <div class="form">
+        <form id="form-denuncia" enctype="multipart/form-data">
+            <label for="nome">Seu Nome: </label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br>
+        
+            <label for="email">Seu E-mail: </label><br>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com"><br>
+        
+            <label for="nome">Local do ocorrido</label><br>
+            <input type="text" id="local" name="local" required><br><br>
+        
+            <label for="nome">Anexar foto do problema</label><br>
+            <input type="file" id="foto" name="foto" accept="image/*"><br>
+            <selection id="denuncie"><br>
+        
+            <button type="submit">Enviar Denúncia</button>
+            </div>
+        </form>
+    </section>
+    </div><br><br><br>
+
+    <footer>
+        <p>&copy; 2025 Gleyce Gomes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
